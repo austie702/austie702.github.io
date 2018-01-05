@@ -2,56 +2,63 @@
   position: absolute;
   min-height: 100%;
   min-width: 100%;
-  top: 0;
+  top: 11;
   left: 0;
   right: 0;
-  bottom: 0;
-  background-color: lightgray;
+  bottom: 11;
+  background-image: url("LambdaBlue.png");
+  background-repeat: no-repeat;
   display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 9px;
+  grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 5% 90% 5%;
   grid-template-areas:
       "h h h h h h h h h h h h"
       "m m c c c c c c c c c c"
       "f f f f f f f f f f f f";
 }
-
-.header {
+.header  {
   grid-area: h;
-  border-bottom: solid;
+  border-bottom: 8px solid;
+  border-color: white;
+  font-size: 50px;
+  padding-bottom: 10px;
+  color: white;
 }
 .menu {
   grid-area: m;
   border-right: 3px solid;
+  border-color: white;
+  color: white;
 }
-
 .content {
   grid-area: c;
+  padding: 1px;
 }
-
 .iframe {
   border-left: 3px solid;
   float: right;
   min-height: 100%;
   min-width: 100%;
+  padding-bottom: 11px;
+  
 }
-
 .footer {
-  border-top: solid;
+  border-bottom: 8px solid;
   grid-area: f;
-}
-
+  background-image: url("Untitled.png");
+  border-color: white;
+  color: white;
+  }
 .legend {
-  font-size: 50px;
-  padding-bottom: 30px;
+  font-size: 48px;
+  padding-bottom: 13px;
 }
-
 .listClasses {
-  font-size: 30px;
+  font-size: 33px;
 }
-
 .li {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+Add Comment
