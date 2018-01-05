@@ -11,7 +11,7 @@
   display: grid;
   grid-gap: 9px;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 25% 70% 5%;
+  grid-template-rows: 25% 90% 5%;
   grid-template-areas:
       "h h h h h h h h h h h h"
       "m m c c c c c c c c c c"
